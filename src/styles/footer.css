@@ -1,0 +1,18 @@
+.footer{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    background-color: #403c44;
+}
+
+.texto-footer p{
+    font-size: 13px;
+    margin-bottom: 3px;
+    font-family: 'Montserrat',serif;
+    color: #e6e5e3;
+}
+
+@media (max-width: 575px) {
+    .texto-footer p{
+        font-size: 10px;
+    }
+}
