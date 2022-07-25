@@ -32,6 +32,9 @@ function Navbar() {
 
     function logout()
     {
+        localStorage.removeItem("Name");
+        localStorage.removeItem("Email");
+        localStorage.removeItem("Token");
         localStorage.setItem("Logged", false);
         history.push("/");
     }
